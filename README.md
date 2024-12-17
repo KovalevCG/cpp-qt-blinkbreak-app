@@ -1,0 +1,1 @@
+BlinkBreak: A simple app designed to reduce eye strain and improve eye health. It reminds users to take short breaks, blink regularly, and follow the 20-20-20 rule, helping screen users maintain healthy eyes and stay refreshed throughout the day.
