@@ -30,7 +30,7 @@ ScreenManager::ScreenManager(QWidget *parent)
     QFont font = countdownLabel->font();
     font.setPointSize(48);
     countdownLabel->setFont(font);
-    countdownLabel->setStyleSheet("QLabel { color : white; }");
+    countdownLabel->setStyleSheet("QLabel { color : grey; }");
 
     // Ensure the label scales properly
     countdownLabel->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);

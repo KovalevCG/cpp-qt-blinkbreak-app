@@ -56,11 +56,11 @@ private:
     int intervalCount = 0;      // Counter to track intervals
 
     const int intervalMs = 600000;       // 10 minutes in ms
-    const int visibleDurationMs = 10000; // 10 seconds in ms
+    const int visibleDurationMs = 15000; // 15 seconds in ms
     const int extendedDurationMs = 300000; // 5 minutes in ms
-    // const int intervalMs = 16000;       // 10 minutes in ms
-    // const int visibleDurationMs = 1000; // 10 seconds in ms
-    // const int extendedDurationMs = 14000; // 5 minutes in ms
+    // const int intervalMs = 6000;       // 10 minutes in ms
+    // const int visibleDurationMs = 2000; // 10 seconds in ms
+    // const int extendedDurationMs = 5000; // 5 minutes in ms
 };
 
 #endif // SCREEN_H
