@@ -71,7 +71,7 @@ void ScreenManager::toggleVisibility() {
 
     if (intervalCount % 3 == 0) {
         // Every third interval: 5 minutes
-        std::cout << "Extended Interval: " << intervalCount << std::endl;
+        // std::cout << "Extended Interval: " << intervalCount << std::endl;
         remainingTime = extendedDurationMs / 1000; // 5 minutes in seconds
         countdownLabel->setText(QString::number(remainingTime));
         showFullScreen();
@@ -80,7 +80,7 @@ void ScreenManager::toggleVisibility() {
         QTimer::singleShot(extendedDurationMs, this, &ScreenManager::hide);
     } else {
         // Regular interval: 10 seconds
-        std::cout << "Interval: " << intervalCount << std::endl;
+        // std::cout << "Interval: " << intervalCount << std::endl;
         remainingTime = visibleDurationMs / 1000; // 10 seconds in seconds
         countdownLabel->setText(QString::number(remainingTime));
         showFullScreen();
